@@ -8,7 +8,7 @@ function App() {
         <div className="app-container">
             <header className="app-header">
                 <h1>Wikipedia Search Application</h1>
-                <p>Welcome to the Wikipedia Search Application</p>
+                <p>Welcome to the WikiFinder</p>
             </header>
             <main className="app-main">
                 <Search />
