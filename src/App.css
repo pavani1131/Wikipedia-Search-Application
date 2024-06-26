@@ -1,0 +1,120 @@
+/* App.css */
+
+/* Global styles for the entire application */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.app-header p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.app-main {
+  flex: 1;
+  padding: 20px;
+}
+
+.app-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: sticky;
+  bottom: 0;
+}
+
+/* Styles for Search component */
+.search-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.results-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.result-item {
+  margin-bottom: 20px;
+}
+
+.result-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.result-title:hover {
+  text-decoration: underline;
+}
+
+.result-snippet {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.read-more {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
